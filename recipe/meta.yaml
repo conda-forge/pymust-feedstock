@@ -1,5 +1,5 @@
 {% set name = "pymust" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pymust-{{ version }}.tar.gz
-  sha256: 513c529326c0cccf3197c8653ec17c19b6ffd873f1cb30ea50da24df837e6af3
+  sha256: d29ae6fdd704a874f2384345bceab838811cd54522794c996199049244c0a5f1
 
 build:
   noarch: python
